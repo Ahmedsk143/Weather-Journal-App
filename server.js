@@ -13,7 +13,7 @@ app.use(cors());
 app.use(express.static("website"));
 
 // Running the server
-const port = 3000;
+const port = process.env.PORT || 3000;
 const server = app.listen(port, () => {
   console.log(`The server is running on localhost: ${port}`);
 });
