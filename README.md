@@ -2,7 +2,7 @@
 
 - [Project Description](#project-description)
 - [Technologies](#technologies)
-- [Getting Started with Visual Studio Code](#getting-started-with-visual-studio-code)
+- [Getting Started with Visual Studio Code](#getting-started)
 - [Key Features](#key-features)
 - [Dependencies](#dependencies)
 
@@ -19,7 +19,7 @@ It is a project for the Udacity Professional Track of web development
 - Node.js
 - Express.js
 
-# Getting Started with Visual Studio Code
+# Getting Started
 
 ```bash
  git clone https://github.com/Ahmedsk143/Weather-Journal-App.git
