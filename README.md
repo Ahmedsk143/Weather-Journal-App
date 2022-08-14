@@ -1,6 +1,5 @@
 # Table of Contents
 
-- [Table of Contents](#table-of-contents)
 - [Project Description](#project-description)
 - [Technologies](#technologies)
 - [Getting Started with Visual Studio Code](#getting-started-with-visual-studio-code)
