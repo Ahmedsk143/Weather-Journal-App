@@ -3,6 +3,8 @@ const baseURL = "https://api.openweathermap.org/data/2.5/weather?";
 const apiKey = "bd4237943750b8699d9627bf2729c674";
 
 // Global variables
+const serverPostRoute = "https://weather-143.herokuapp.com/add";
+const serverGetRoute = "https://weather-143.herokuapp.com/all";
 const zipInput = document.getElementById("zip");
 const feelingsInput = document.getElementById("feelings");
 const generateBtn = document.getElementById("generate");
@@ -12,8 +14,6 @@ const output = document.getElementById("entryHolder");
 const dateOutput = document.querySelector("#date span:last-child");
 const tempOutput = document.querySelector("#temp span:last-child");
 const contentOutput = document.querySelector("#content span:last-child");
-const serverPostRoute = "http://localhost:3000/add";
-const serverGetRoute = "http://localhost:3000/all";
 
 // Event listener to add function to existing HTML DOM element
 generateBtn.addEventListener("click", displayWeatherData);
