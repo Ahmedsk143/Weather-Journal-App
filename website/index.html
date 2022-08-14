@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="inputs">
+        <h1>Weather Journal</h1>
+        <h4>Works only on USA zip codes</h4>
+        <div class="inputs__field">
+          <input type="text" placeholder="enter zip code here" id="zip" />
+        </div>
+        <div class="inputs__field">
+          <textarea
+            id="feelings"
+            cols="30"
+            rows="6"
+            placeholder="how do you feel about the weather?"
+          ></textarea>
+        </div>
+        <div class="inputs__field">
+          <button id="generate">Generate</button>
+        </div>
+        <div class="requiredErr">*All inputs are required</div>
+        <div class="fetchErr">*Invalid zip code</div>
+      </div>
+      <div id="entryHolder">
+        <div id="date">
+          <span class="title">Date:</span>
+          <span></span>
+        </div>
+        <div id="temp"><span class="title">Temp:</span> <span></span> °C</div>
+        <div id="content">
+          <span class="title"> feelings:</span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
